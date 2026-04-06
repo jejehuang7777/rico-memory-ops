@@ -1,0 +1,15 @@
+id: rico-continuity-handoff-relief
+statement: "When a primary agent thread starts compressing, split routine handoff and memory load to a second operator before continuity collapses."
+roadmap:
+  lane: continuity
+  scene: high_compression
+  decision_family: relief_split
+intent: "Decide what to hand off first when the main execution thread is still alive but clearly getting overloaded."
+cue:
+  - high_compression
+  - handoff_readiness
+  - second_operator
+  - continuity_risk
+origin:
+  source_type: synthetic_example
+  source_ref: "examples/rico-example.yaml"
