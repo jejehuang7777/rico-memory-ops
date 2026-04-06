@@ -1,5 +1,5 @@
 rico-memory-ops
-For a Chinese introduction, see README_ZH.md.
+
 Most AI memory systems help agents remember more.
 rico-memory-ops is about something harder:
 helping an agent remain coherent over time.
